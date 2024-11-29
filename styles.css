@@ -4,15 +4,14 @@ body {
     font-size: large;
 }
 
-header {
+#header {
     position: absolute;
     background-color: aqua;
     color: black;
     height: 7vh;
     width: 100vw;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: space-evenly;
 }
 
 .presentation-image {
@@ -56,4 +55,30 @@ header {
     border: 0cap;
     background-color: aqua;
     border-radius: 15px;
+}
+
+#menu {
+    display: flex;
+
+    button {
+        border-color: rgba(0, 0, 0, 0.127);
+        background-color: aqua;
+    }
+}
+
+.admin-login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    
+    input {
+        margin: 10px;
+        width: 50%;
+        height: 30px;
+    }
+}
+
+.home-icon {
+    scale: 50%;
 }

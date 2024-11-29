@@ -5,3 +5,7 @@ const maisProdutos = function() {
 const voltarParaHome = function() {
     window.location.assign("./index.html")
 }
+
+const administracao = function() {
+    window.location.assign("./admin.html")
+}
